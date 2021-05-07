@@ -1,11 +1,15 @@
-# Simple estimate file space usage
+# Simple estimate file space usage - RIIR
 
 A simple tool for size analyze files in your file system like `du` command.
+
+# Actual Status
+
+This is a initial implementation, for now we  have only a simple list with size of directories and the unique acceptabled param is directory path.
 
 # Todo
 
 1. Params rules; Like du https://linuxcommand.org/lc3_man_pages/du1.html
-2. Async callers to improve perform;
+2. Is a good idea make async callers to improve perform?;
 3. Exceptions tratatives;
 4. Tests.
 
@@ -21,5 +25,7 @@ Run with Cargo:
 ```
 cargo watch -x run
 ```
+ 
+----
 
 Writing in Rust <3
