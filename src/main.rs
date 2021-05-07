@@ -1,8 +1,15 @@
 use std::fs;
 use std::io::Result;
+use std::env;
 
 fn main() {
-    let path = "/".to_string(); // need get from command param
+    let args: Vec<String> = env::args().collect();
+
+    let path = match args.get(1) {
+        Some(first) => first.to_string(),
+        None => String::from(".")
+    };
+
     path_iterator(path);
 }
 
