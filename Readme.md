@@ -18,7 +18,7 @@ This is a initial implementation, for now we  have only a simple list with size 
 Clone this repository and enter to new folder:
 
 ```
-git clone https://github.com/sr2ds/du-rs && cd du-rs
+git clone https://github.com/sr2ds/du-rs.git && cd du-rs
 ```
 
 Run with Cargo:
